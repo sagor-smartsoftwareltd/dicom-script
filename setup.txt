@@ -1,0 +1,8 @@
+Set up Task Scheduler:
+1.Open Task Scheduler from the Start Menu.
+2.Click Create Basic Task and name it "DICOM Watcher".
+3.Choose When I log on or When the computer starts.
+4.For Action, choose Start a program.
+5.In Program/script, type wscript.exe.
+6.In Add arguments, type "C:\DICOM\scripts\start_hidden.vbs".
+7.Click Finish.

@@ -1,6 +1,4 @@
 @echo off
-powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "%~dp0watch.ps1"
-@echo off
 setlocal enabledelayedexpansion
 
 REM --- CONFIGURATION ---
